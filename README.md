@@ -1,7 +1,7 @@
 Adelaide Mobility Gaps: Spatial Equity and Accessbility Analysis of Greater Adelaides Public Transit Network
 
 Core Questions:
-1) What percentage of residents reside in each suburb are within a 10 minute walk (800m) or a 15 minute feeder bus to high frequency transit hubs?
+1) What percentage of residents reside in each suburb are within a 10 minute walk (800m) or a 15 minute feeder bus to high frequency transit hubs on a given work/weekday?
 2) Which regions have high car dependency or low household vehicle ownership, combined with low transit access scores?
 3) Where are the optimal locations to introduce micro mobility hubs (e-bikes) or high frequency feeder bus routes to bridge this gap?
 
@@ -11,6 +11,7 @@ To answer these:
     - Sourced from Data.SA
         - stops.txt (all stops for buses, trains and trams)
         - routes.txt and trips.txt (identifies higher frequency stops with more frequency)
+        - calendar.txt (isolate a regular workday)
 
 2) Demographics and Spatial Barriers:
     - Sourced from ABS Census 2021 data
